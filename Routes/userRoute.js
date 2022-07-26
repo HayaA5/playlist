@@ -58,6 +58,9 @@ router.get('/:id', async (req, res) => {
     }
  })
 
+ router.get('/haya', async (req, res) => {
+   res.send("bla bla bla");
+ })
 //  router.delete("/edit_user/:id", async (req, res)=>{
 //     userLogic.del(req.params.id);
 // console.log(req.body);
